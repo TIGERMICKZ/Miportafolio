@@ -1,0 +1,66 @@
+/* Estilos básicos para el portafolio */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background: url("img/lleidiem.jpeg") no-repeat center center/cover;
+    color: rgb(245, 114, 6);
+    text-align: center;
+    padding: 5rem 2rem;
+    font-size: 20px;
+}
+
+
+/* Menú */
+nav {
+    background: #444;
+    text-align: center;
+    padding: 0.5rem;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    
+    display: inline;
+    margin: 0 1rem;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Secciones */
+section {
+    padding: 2rem;
+}
+section:nth-child(even) {
+    background: #f4f4f4;
+}
+
+/* Proyectos */
+.proyecto {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+#sobre-mi{
+
+    text-align: center;
+}
